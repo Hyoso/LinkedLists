@@ -4,7 +4,6 @@
 class Thing
 {
 public:
-	Thing() {}
 	Thing(std::string data, Thing* otherThing) : m_data(data), m_otherThing(otherThing) {}
 
 	std::string m_data;
